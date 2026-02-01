@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: palevioletred;
+}
+nav{
+display: flex;
+background-color: rgb(24, 10, 10);
+color: aliceblue;
+font-family: Arial, Helvetica, sans-serif;
+height: 70px;
+}
+ul{
+    color: aliceblue;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap:30px;
+    position: relative;
+    top: 35px;
+    left: 500px;
+}
+span{
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+button{
+    position: absolute;
+    left: 400px;
+    padding: 10px 10px;
+    background-color: cadetblue;
+    color: aliceblue;
+    border-radius: 30px;
+    font-weight: bold;
+    top: -15px;
+
+}
+.text{
+    color: aliceblue;
+    position: relative;
+    bottom: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.toggle-bt{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.toggle-bt span{
+    width: 25px;
+    background-color: aliceblue;
+    height: 3px;
+    margin: 3px 0;
+}
+#toggle{
+    display: none;
+}
+.nav-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+.navtwo{
+  display: flex;
+  background-color: rgb(24, 10, 10);
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 70px;
+  position: relative;
+  top: 60px;
+
+}
+.list{
+    color: rgb(223, 236, 244);
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap:30px;
+    position: relative;
+    top: 25px;
+    left: 0px;
+}
+.texttwo{
+    position: relative;
+    left: 720px;
+    top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ .li{
+    position: relative;
+    left: 45px;
+} 
+.but{
+    position: absolute;
+    left:300px ;
+    top: -10px;
+    background-color:cadetblue ;
+    color: aliceblue;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 10px 10px;
+    width: 100px;
+
+
+}
+.texttwo{
+    color: aliceblue;
+    position: relative;
+    bottom: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.toggle-btn{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.toggle-btn span{
+    width: 25px;
+    background-color: aliceblue;
+    height: 3px;
+    margin: 3px 0;
+}
+#toggle{
+    display: none;
+}
+.nav-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: aliceblue;
+    text-decoration: none;
+}
+.box{
+      display: flex;
+  background-color: rgb(24, 10, 10);
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 70px;
+  position: relative;
+  top: 130px;
+}
+ .navthree{
+     color: rgb(223, 236, 244);
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap:30px;
+    position: relative;
+    top: 30px;
+    left: 570px;
+ }
+ .logo{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 25px;
+    left: 40px;
+ }
+ .lo{
+    position: relative;
+    left: 50px;
+ }
+  
+@media( max-width: 768px){
+    .toggle-btn {
+        display: flex;
+        position: relative;
+        left: 400px;
+    }
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        padding: 10px;
+    }
+    #toggle:checked ~ .nav-links{
+        display: flex;
+    }
+    .nav-links li{
+        margin: 5px 0;
+    }
+    button{
+        position: relative;
+        top: -8px;
+        left: -2px;
+    }
+    .toggle-bt{
+        display: flex;
+        position: relative;
+        left: 0;
+    }
+    .texttwo{
+        position: relative;
+        left: 450px;
+    }
+    .list{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        padding: 10px;
+    }
+
+
+}
+
+
